@@ -1,0 +1,26 @@
+.tabla_section__container{
+    width: 98%;
+    margin: auto;
+    background-color: rgb(141, 125, 104);
+    
+}
+.tabla_familia__componente{
+    margin: auto;
+    background: rgb(36, 128, 36);
+    text-align: center !important;
+}
+Table.tabla_familia__componente th{
+    background-color: rgb(36, 128, 36) !important;
+}
+/* .tabla_section__container .h4_tabla{
+} */
+
+.tabla_art__componente .td_row__tabla{
+    font-size: 3rem !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+}
+.h5_titulo__tabla {
+    font-weight: bold;
+    margin-left: 1%;
+}

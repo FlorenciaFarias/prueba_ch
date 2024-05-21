@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgba(179, 165, 87, 0.33);
+    
+}
+.h1_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+html{
+    min-height: 100vh;
+
+}
+.main_principal{
+     flex-grow: 1;
+
+
+}
+.btn-close{
+    visibility: hidden !important;
+}

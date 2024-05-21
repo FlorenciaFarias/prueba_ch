@@ -1,0 +1,39 @@
+.section_tabla__container{
+    width: 90.5%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    max-height: 200px;
+
+}
+.h6_titulo__tablaCorte{
+    font-weight: 600;
+}
+.tabla_corte{
+    overflow-y: scroll;
+    min-height: 70px;
+    max-height: 164px;
+    text-align: center;
+    background-color: rgba(26, 31, 27, 0.426);
+}
+.th_colum__tablaCorte{
+    color: aliceblue !important;
+    background: rgb(20, 92, 137) !important;
+
+}
+.td_row_stock{
+    background-color: #c0c0b9 !important;
+}
+.td_row_stock_orange{
+    background-color: #f84c17 !important;
+
+}
+.h5_medidas__element{
+    margin-left: 1rem;
+    width: 90.5%;
+    color: #ff5733;
+    text-align: center;
+    background-color: #fff0f0; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    margin-top: 10px;
+}

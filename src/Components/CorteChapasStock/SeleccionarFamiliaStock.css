@@ -1,0 +1,37 @@
+.search_corte__section{
+    margin-left: 1%;
+    display: flex;
+    width: 32%;
+    padding: 5px;
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.titulo_label_filtroArt{
+   font-size: 1.3rem;
+  
+}
+.search_corte__section input{
+        margin-top: 6px;
+        padding: 5px;
+        height: 35px;
+        border: 1px solid rgb(80, 80, 80);
+        border-radius: 5px;
+ }
+ .card_section__container{
+   margin: auto;
+   width: 98%;
+
+ }
+ .h3_card__section{
+    margin-left: 1%;
+    
+ }
+
+ @media screen and (min-width: 390px) and (max-width: 1200px){
+   .titulo_label_filtroArt{
+       font-weight: 600 !important;
+       font-size: 1rem;
+   
+   }
+}

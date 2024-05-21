@@ -1,0 +1,195 @@
+
+
+.section_tablaMedidasChapas__container .table-responsive {
+    overflow-y: scroll !important;
+}
+
+.tabla_medidasChapas {
+    text-align: center;
+    white-space: normal;
+    border: black 0.5px solid;
+    word-wrap: break-word;
+    max-width: 100%;
+    /* background-color: rgb(59, 106, 148); */
+    background-color: rgba(13, 1, 15, 0.744);
+
+}
+
+.th_colum__tablaMedidasChapas {
+    font-size: 1.1rem;
+    background: rgba(243, 242, 242, 0.699) !important;
+}
+
+.input_tablaMedidasChapas__td {
+    width: 85%;
+    background: none;
+    border-style: none;
+}
+
+.td_row__tablaMedidasChapas input.input_tablaMedidasChapas__td {
+    border: none;
+    outline: none;
+    -webkit-appearance: textfield;
+    /* Para Safari */
+    -moz-appearance: textfield;
+    /* Para Firefox */
+    appearance: textfield;
+    /*Para el resto de los navegadores*/
+
+}
+
+/* Para navegadores que admiten la propiedad "appearance" */
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+.tabla_medidasChapas td.td__errorMessage{
+    background-color: rgba(255, 187, 0, 0.801) !important;
+}
+/* Para navegadores que utilizan las pseudo-clases ::-webkit-inner-spin-button y ::-webkit-outer-spin-button */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.btn_eliminarFila {
+    background: rgb(190, 12, 12);
+    color: aliceblue;
+    border: none;
+    border-radius: 50%;
+
+
+}
+
+.btn_eliminarFila:hover {
+    background: rgb(112, 3, 3);
+}
+.btns_operaciones_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: -3.1%;
+    margin-bottom: 10px;
+    /* column-gap: 20px; */
+    /* justify-content: space-between; */
+    /* margin-left: 2.5%; */
+}
+.btn_agregarFila {
+    font-size: 2rem;
+    min-height: 12px;
+    max-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(255, 250, 250);
+    background: rgb(21, 65, 185);
+    transition: all 0.4s;
+    border: 1px solid black;
+    width: 1.9%;
+    margin-bottom: 15px;
+}
+
+.btn_agregarFila:hover {
+    background: rgb(30, 63, 153);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(62, 117, 199);
+}
+.btn_tablaMedidasChapas {
+    font-size: 1.3rem;
+    height: 45px;
+    padding: 8px;
+    border-radius: 6%;
+    color: rgb(255, 250, 250);
+    background: #1a8655;
+    transition: all 0.4s;
+    border: 1px solid rgb(64, 122, 78);
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.64);
+    border-radius: 5px;
+}
+
+.btn_tablaMedidasChapas:hover {
+    background: rgb(29, 80, 41);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(92, 150, 95);
+}
+
+.medidas_chapas_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.h5_titulo__tabla.h5_tablaMedida {
+    margin-left: 2.5%;
+}
+.mensaje-error{
+    display: flex;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.modal{
+    --bs-modal-header-border-color: #ffffff !important;
+    --bs-modal-footer-border-color: #ffffff !important;
+}
+.icono-adverentencia{
+    font-size: 5.5rem !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 220%;
+    color: rgb(255, 123, 0);
+}
+ .icono-confirmacion{
+    font-size: 5.5rem !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 220%;
+    color: rgb(14, 223, 94);
+ }                   
+.icono-error-stock{
+    font-size: 5rem !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 250%;
+    color: rgb(255, 0, 0);
+}
+.encabezado_tabla{
+    display: flex;
+    justify-content: space-between;
+}
+.p_stock{
+    background:  rgba(236,242,244,1);
+    border-radius: 8%;
+    width: 15%;
+    font-weight: 600;
+}
+.span_stock{
+    font-weight: 800;
+    color: rgb(212, 6, 102);
+}
+.invalid{
+    border-style: none;
+    background-color: rgb(255, 0, 0) !important;
+}
+.invalid input{
+    color: rgb(253, 253, 253) !important;
+    outline: none;
+    width: 100%;
+    
+}
+input[type="number"] {
+    
+    border: none !important;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,34 @@
+.nav_dropCantidadFilas__conteiner{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5%;
+}
+.nav_dropCantidadFilas__conteiner h6{
+   margin: auto;
+   margin-left: 1px;
+}
+.drop_filas__menu{
+    width: auto !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.btn_drop__container{
+    display: flex !important;
+    align-items: center !important;
+    background-color: rgb(255, 251, 251) !important;
+    color: black !important;
+    height: vh;
+    border-radius: none;
+    padding: 0 10px;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #b3a557d8 !important;
+
+}
+.drop_menu{
+    width: auto !important;
+    text-align: center !important;
+}

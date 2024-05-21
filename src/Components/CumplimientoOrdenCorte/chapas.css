@@ -1,0 +1,141 @@
+Table.tabla_ChapasPendientes{
+    background-color: rgb(247, 243, 243) !important;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+section.tablas_cabecera{
+    width: 90%;
+    display: flex;
+}
+.h4_tabla1{
+    margin-left: 2.5%;
+}
+article.tabla1, article.tabla2, article.tabla3{
+    margin: auto;
+    width: 100%;
+}
+
+
+.th_tabla1, .th_tabla2{
+    background: rgb(14, 97, 97) !important;
+    color: rgb(247, 246, 245) !important;
+    font-size: 1.1rem;
+}
+.nav_filtro_reset{
+    display: flex;
+    margin-left: 2%;
+    width: 50%;
+}
+.th_tabla3{
+    background: rgb(5, 7, 5) !important;
+    color: rgb(247, 246, 245) !important;
+
+}
+
+.td_tabla3{
+    font-size: 1.1rem;
+
+    background: rgba(255, 255, 255, 0.842) !important;
+}
+.td_tabla3_input{
+    width: 100%;
+    /* background: rgba(253, 253, 253, 0.925) !important; */
+    border-style: none !important;
+    border: 1px solid rgb(4, 59, 4) !important;
+
+    outline: none !important;
+    -webkit-appearance: textfield;
+    /* Para Safari */
+    -moz-appearance: textfield;
+    /* Para Firefox */
+    appearance: textfield;
+}
+
+.section_input__filter{
+    display: flex;
+    margin-left: 2.5%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+section .input_filter{
+    margin-right: 3px;
+}
+.td_tabla3_input0{
+    background: rgba(255, 106, 80, 0.486) !important;
+    width: 100%;
+    /* background: rgba(253, 253, 253, 0.925) !important; */
+    border-style: none !important;
+    border: 1px solid rgb(4, 59, 4) !important;
+
+    outline: none !important;
+    -webkit-appearance: textfield;
+    /* Para Safari */
+    -moz-appearance: textfield;
+    /* Para Firefox */
+    appearance: textfield;
+}
+.td_tabla3_input1{
+    background: rgb(164, 253, 169) !important;
+    width: 100%;
+    /* background: rgba(253, 253, 253, 0.925) !important; */
+    border-style: none !important;
+    border: 1px solid rgb(4, 59, 4) !important;
+
+    outline: none !important;
+    -webkit-appearance: textfield;
+    /* Para Safari */
+    -moz-appearance: textfield;
+    /* Para Firefox */
+    appearance: textfield;
+    
+}
+.td_tabla3_input1 input[type="number"] {
+    text-align: center !important;
+    font-weight: 600;
+    appearance: textfield;
+    color: rgb(12, 11, 11) !important;
+
+    -moz-appearance: textfield;
+    /* Firefox */
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+}
+.td_tabla3_input0 input[type="number"] {
+    text-align: center !important;
+    font-weight: 600;
+    color: rgb(27, 27, 27) !important;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    /* Firefox */
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+}
+
+td.td__errorMessage{
+    background-color: rgba(255, 187, 0, 0.801) !important;
+}
+.mensaje-error{
+    display: flex;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn_refres_container_cumplimiento{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+}
+section.btn_refres_container_cumplimiento .btn_refresh_btn{
+    display: flex;
+    align-items: center;
+}

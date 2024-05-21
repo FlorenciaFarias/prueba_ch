@@ -1,0 +1,95 @@
+.media{
+    background: #ffffff !important;
+}
+.media .input_form{
+ border: 1px solid rgb(44, 119, 51) !important;
+ background: #e6e6e6 !important;
+ font-size: 1rem;
+}
+form.media{
+   
+    width: 95%;
+    min-height: 160vh;
+}
+
+form.media .col-form-label-sm{
+    margin-top: 0;
+    padding-bottom: 0;
+    font-size: 0.800rem;
+    max-lines: 1;
+    text-overflow: ellipsis;
+}
+form h4.titulo_params{
+    margin-top: 10px;
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+}
+form h5.subsubtitulo_params{
+    margin-top: 10px;
+    display: flex;
+    font-weight: 800;
+    justify-content: center;
+}
+form h6.subtitulo_form_config{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.btn_grabar_form_conf{
+width: 110px;
+height: 45px;
+border-radius: 5px;
+fill: #519961;
+box-shadow: 5px 5px 2px rgba(0,0,0,0.2);
+}
+.btn_volver_form_conf{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 45px;
+    border-radius: 5px;
+    border: #a0a0a0 solid 1px;
+    background: #dbdbdb;
+    color: #161515;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.64);
+}
+.btn_volver_form_conf:hover{
+    background: #d7d6d6;
+}
+
+p.error {
+    color: #bf1650;
+    font-size: 17px;
+    text-align: left;
+}
+  
+p.error::before {
+display: inline;
+content: "⚠ ";
+}
+.row_btn_user{
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn_conteneir_col{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.h5_errorApi{
+    color: red;
+}
+.inputValid{
+    border: 1px solid black !important;
+}
+.inputInvalid{
+    border: 1px solid red !important;
+}   
+.input_URL{
+    background-color: grey !important;
+    border: black 1px solid !important;
+    cursor: context-menu !important;
+}

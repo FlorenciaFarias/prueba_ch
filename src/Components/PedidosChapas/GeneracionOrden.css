@@ -1,0 +1,57 @@
+.section_componenteGC{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h5_titulo__tabla {
+    font-weight: bold;
+    margin-left: 2.5%;
+}
+
+.btn_disabled {
+    line-height: 1.1;
+    margin-left: 10px;
+    margin-right: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    width: 110px;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.64);
+    height: 45px;
+    border-radius: 5px;
+    border: #a6a7a6 solid 1px;
+    color: #7a7a7a;
+    cursor: context-menu;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 129, 128, 0.681);
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 15px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: grey;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    white-space: nowrap;
+}
+
+.section_tablas__container {
+    min-height: 164px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 0; */
+    
+}
+
+.section_tablas__container .table-responsive {
+    overflow-y: scroll;
+    max-height: 350px;
+}

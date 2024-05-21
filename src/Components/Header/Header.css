@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background-color: #16355b;
+
+}  
+.header_section{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+img.header_section__img {
+    width: 127px;
+    height: 32px;
+    /* cursor: pointer; */
+}
+
+.header_nav{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_button{
+    background: none;
+    border: none;
+    color: white;
+    width: 1rem;
+}
+.button_icon{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.nav_h4{
+    text-align: center;
+    margin-top: 9px;
+    margin-right: -10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.modal_datosConexion{
+    padding: 10px;
+    text-align: center;
+}
+.h4_modal{
+    /* border-bottom: 1px solid #00000083; */
+    margin-top: 2px;
+    
+}

@@ -1,0 +1,42 @@
+.container_tabla{
+    /* width: 80% !important;
+    margin: auto;
+    min-height: 2cap !important;
+    max-height: 35vh !important; */
+    width: 90% !important;
+    margin: auto;
+    min-height: 28vh !important;
+    max-height: 30vh !important;
+    overflow-x: auto;
+}
+.tabla_medidasEspeciales{
+    margin: auto !important;
+    overflow-y: scroll !important;
+    max-height: 30vh !important;
+}
+
+.tabla_medidasEspeciales th{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    border-collapse: collapse;
+    color: white !important;
+    background-color: rgba(236, 115, 16, 0.815) !important;
+}
+
+.tabla_medidasEspeciales .td_medidasEspeciales{
+    font-size: 1rem !important;
+}
+
+.titulo_primario{
+text-align: center;
+margin-bottom: 1rem;
+font-weight: 700;
+
+}
+.titulo_final{
+    margin-top: 1rem !important;
+    margin-right: 1rem;
+   text-align: right; 
+   font-weight: 600;
+}
